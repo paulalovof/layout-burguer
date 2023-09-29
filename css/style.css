@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    background-color: RGB(255,194,52);
+    color: RGB(65,31,9);
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a{
+    color: RGB(65,31,9);
+    font-size: 20px;
+}
+
+main{
+    background-color: RGB(255,194,52);
+    color: RGB(65,31,9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.principal-burguer{
+    width: 50%;
+}
+
+.principal-burguer h1{
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.principal-burguer h2{
+    font-size: 80px;
+}
+
+main figure{
+    position: relative;
+}
+
+main .preco-lanche-principal{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.choose-enjoy{
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.choose-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: RGB(65,31,9);
+}
+
+.choose-conteudo h3{
+    width: 250px;
+    height: 50px;
+    background-color: RGB(255,194,52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose-conteudo h2{
+    font-size: 80px;
+}
+
+.choose-conteudo p{
+    font-size: 15px;
+    font-weight: 100;
+    width: 900px;
+    text-align: center;
+}
+
+.choose-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.card-burguer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: RGB(65,31,9);
+    gap: 10px;
+}
+
+.card-burguer h3{
+    font-size: 40px;
+}
+
+.card-burguer p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-burguer a{
+    background-color: RGB(223,28,28);
+    color: white;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card-burguer figure img{
+    height: 250px;
+}
+
+.reservation{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reservation-conteudo{
+    color: RGB(65,31,9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation-conteudo p{
+    font-size: 30px;
+}
+
+.reservation-conteudo h2{
+    font-size: 70px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+form .form1, .form2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: RGB(255,194,52);
+}
+
+form input[type="submit"]{
+    background-color: RGB(223,28,28);
+    color: white;
+    font-size: 17px;
+}
+
+form input[type="submit"]:hover{
+    background-color:  RGB(65,31,9);
+}
+
+form input::placeholder{
+    color: RGB(65,31,9);
+    padding: 20px;
+}
+
+footer{
+    background-image: url("/img/rodape/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foot1, .foot2{
+    padding: 20px;
+    display: flex;
+}
+
+.foot-conteudo{
+    width: 40%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 50px;
+}
+
+.foot-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 500px;
+}
+
+.local, .info{
+    display: flex;
+    gap: 20px;
+}
+
+.foot2{
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
